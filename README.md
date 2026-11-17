@@ -11,15 +11,16 @@ This is an early beta for invited testers. Some things will be rough.
 
 ## Download (Windows 10 or 11)
 
-Get **Tesra_0.2.0_x64-setup.exe** and **Tesra beta guide.pdf** from the
+Get the installer (**Tesra_<version>_x64-setup.exe**) and the testers' guide (PDF) from the
 [latest release](../../releases/latest).
 
+- A new beta installs over the old one; your workbooks carry over.
 - It installs for your user only; no administrator rights are needed.
 - The beta is not yet signed with a publisher certificate, so Windows may say **"Windows protected
   your PC"**. Click **More info**, then **Run anyway**.
 - Excel stays your default for .xlsx files; Tesra only appears under **Open with**.
 - To check the download, compare its SHA-256 with `SHA256.txt` in the release
-  (PowerShell: `Get-FileHash .\Tesra_0.2.0_x64-setup.exe`).
+  (PowerShell: `Get-FileHash .\Tesra_<version>_x64-setup.exe`).
 
 ## Your data
 
